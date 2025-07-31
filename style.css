@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding-top: 70px;
+}
+
+/* Header */
+.navbar-brand {
+    font-weight: 700;
+    color: #0d6efd !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-link.btn-primary {
+    color: #fff !important;
+    border-radius: 50rem;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-weight: 700;
+}
+
+/* Free Estimate Section */
+#free-estimate {
+    background-color: #fff;
+}
+
+/* Sections */
+h2 {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.card-header {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: #fff;
+    font-weight: 700;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem 1.5rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+/* Staff Section */
+.staff-images {
+    max-width: 600px; /* Set a max-width to force scrolling */
+    margin: 0 auto; /* Center the container */
+}
+
+.image-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 15px;
+}
+
+.image-scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.image-scroll-container::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 4px;
+}
+
+.image-scroll-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 15px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 50rem;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
