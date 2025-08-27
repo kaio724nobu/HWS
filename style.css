@@ -117,3 +117,25 @@ footer {
     background-color: #dc3545;
     border-color: #dc3545;
 }
+
+/* Floating Call Button (mobile) */
+.call-floating-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    z-index: 1050;
+    text-decoration: none;
+}
+
+.call-floating-btn i {
+    font-size: 1.25rem;
+}
